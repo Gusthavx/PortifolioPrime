@@ -1,0 +1,49 @@
+.contato-section {
+    padding: 4rem 0 8rem;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5.5rem;
+    align-items: center;
+}
+
+.contato-section h2 {
+    font-size: var(--font-s3);
+}
+
+.minhas-redes-sociais {
+    display: flex;
+    gap: 5rem;
+    font-size: var(--font-s4);
+}
+
+.minhas-redes-sociais a {
+    color: var(--cor-preto);
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.minhas-redes-sociais a:hover {
+    color: var(--cor-hover);
+    transform: scale(1.05);
+}
+
+.contato-section .citacao {
+    font-size: var(--font-s3);
+    color: var(--cor-cinza);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+@media (max-width:1100px) {
+    .minhas-redes-sociais {
+        gap: 4rem;
+    }
+}
+
+@media (max-width:725px) {
+    .minhas-redes-sociais {
+        gap: 2rem;
+    }
+}
