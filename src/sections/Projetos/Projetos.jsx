@@ -56,7 +56,7 @@ const projetos = [
       desc2: "O design foi pensado para ser claro e organizado, destacando o que realmente importa sem poluição visual. Mais que um CV online, ele mostra minha dedicação em criar soluções funcionais e esteticamente agradáveis.",
       desc3: "É um projeto em constante evolução, sempre atualizado conforme aprendo novas tecnologias e aprimoro minhas habilidades.",
       tecnologias: [
-      <FaReact title="React" />, 
+      //<FaReact title="React" />,
       <SiVite title="Vite" />,
       <SiHtml5 title="HTML5" />,
       <SiCss3 title="CSS3" />,
