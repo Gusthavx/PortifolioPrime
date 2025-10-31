@@ -61,13 +61,14 @@ const projetos = [
       <SiHtml5 title="HTML5" />,
       <SiCss3 title="CSS3" />,
       <SiJavascript title="JavaScript" />,
+      <SiVercel title="Vercel" />
       // <SiNetlify title="Netlify" local onde foi hospedado o site/>
     ],
     responsivo: true,
     // video: "/videos/portifolio-joaquim-vilela.mp4",
     // videoMobile: "/videos/portifolio-joaquim-vilela-mobile.mp4",
-    // linkSite: "https://joaquimvilela.netlify.app/",
-    // linkGithub: "https://github.com/JoaquimGCVS/Portifolio_Prime"
+    linkSite: "https://gusthavosilva.vercel.app/",
+    linkGithub: "https://github.com/Gusthavx/PortifolioPrime"
   }
 ];
 
