@@ -73,6 +73,7 @@ const Sobre = () => {
                             <span className="ferramenta" title="Figma"><SiFigma /></span>
                             <span className="ferramenta" title="Canva"><SiCanva /></span>
                             <span className="ferramenta" title="Google Search Console"><SiGooglesearchconsole /></span>
+                            <span className="ferramenta" title="vercel"><SiVercel /></span>
                         </div>
                     </div>
                 </div>
