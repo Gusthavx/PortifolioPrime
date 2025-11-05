@@ -4,6 +4,7 @@ import "./Projetos.css";
 import certTeladelogin from '../../assets/projetos/Teladelogin.webp';
 import certport from '../../assets/projetos/port.webp';
 import certPortifolio from '../../assets/projetos/Portifolio.webp';
+import certros from '../../assets/projetos/ros.webp';
 
 import { FaJava, FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import {
@@ -65,11 +66,27 @@ const projetos = [
       // <SiNetlify title="Netlify" local onde foi hospedado o site/>
     ],
     responsivo: true,
-    // video: "/videos/portifolio-joaquim-vilela.mp4",
-    // videoMobile: "/videos/portifolio-joaquim-vilela-mobile.mp4",
+    // video: "/videos/portifolio.mp4",
+    // videoMobile: "/videos/portifolio.mp4",
     linkSite: "https://gusthavosilva.vercel.app/",
     linkGithub: "https://github.com/Gusthavx/PortifolioPrime"
-  }
+  },
+    {
+        titulo: "Real Oficial Store",
+        imagem: certros,
+        data: "Novembro 2025",
+        desc1: "A Real Oficial Store foi um projeto que criei para expandir meus conhecimentos em JavaScript e responsividade, aplicando na prática o que já vinha aprendendo em HTML e CSS.",
+        desc2: "Mesmo sendo um projeto simples, ele me ajudou a entender melhor como unir estrutura, estilo e interatividade para construir interfaces mais completas.",
+        desc3: "Pretendo criar outros projetos semelhantes, explorando ainda mais o JavaScript para fortalecer minha lógica de programação e continuar evoluindo como desenvolvedor.",
+        tecnologias: [
+            <FaHtml5 title="HTML5" />,
+            <FaCss3Alt title="CSS3" />,
+            <SiJavascript title="JavaScript" />
+        ],
+        video: "/videos/ros.mp4",
+        linkSite: "https://github.com/Gusthavx/RealOficial-Store",
+        linkGithub: "https://github.com/Gusthavx/RealOficial-Store"
+    }
 ];
 
 const Projetos = () => {
